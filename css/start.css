@@ -1,0 +1,27 @@
+﻿/* секция start-menu*/
+body {
+
+	background: #fff url(../img/background3.jpg) left top / cover fixed;
+}
+
+header,
+footer {
+	background-color: #A1130E;
+}
+
+.start-main .container {
+	width: 75%;
+}
+.start-main{
+	min-height: 92vh;
+}
+
+.owl-carousel {
+	margin-top: 8vh;
+}
+
+.owl-slide img {
+	height: 82vh;}
+/* СЕКЦИЯ Footer */
+
+

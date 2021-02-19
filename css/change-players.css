@@ -1,0 +1,12 @@
+.player-atributes-item {
+	cursor: pointer;
+}
+
+.team-name-block {
+	width: 100%;
+	grid-template-columns: 1fr;
+}
+
+.team-name-block p{
+	color: #fff;
+}

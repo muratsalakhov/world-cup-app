@@ -1,0 +1,104 @@
+.main-section {
+	background: #fff url(../img/background3.jpg) left top / cover fixed;
+	display: block;
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+	min-height: 80vh;
+	overflow-x:hidden;
+	margin: auto;
+}
+
+header,
+footer {
+	background-color: #A1130E;
+}
+
+.group-header {
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	text-align: center;
+}
+
+.group-header h1{
+	font-size: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 25px;
+}
+.group-header .group-header-buttons-block {
+	text-align: center;
+	margin: auto;
+
+}
+
+.group-header .group-header-buttons-block form {
+	display: grid;
+	grid-template-columns: 250px 250px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.group-header .group-header-buttons-block form .group-header-button {
+	background-color: #fff;
+	margin: 3px;
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	padding: 5px;
+	cursor: pointer;
+	border: 1px solid #000;
+	border-radius: 40px;
+	text-align: center;
+}
+
+.group-header .group-header-buttons-block form .group-header-button:hover {
+	background-color: #D0D0D0;
+	transition: 0.5s background-color ease-out;
+}
+
+
+.group-section {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.group-container {
+	display: grid;
+	grid-template-columns: 1fr;
+	margin: 20px;
+}
+.group-container h2{
+	margin-bottom: 10px;
+
+}
+
+.group-block{
+	background-color: #E1E1E1;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(6, 1fr);
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.group-block .group-row{
+	display: grid;
+	grid-template-columns: 40px 180px repeat(8, 45px);
+	width: 100%;
+	align-items: center;
+	justify-items: center;
+}
+
+.group-block .group-row:second-child{
+}
+
+.group-block .group-row p{
+	text-align: center;
+}
+
+
+
+.group-block .group-row img{
+	position: relative;
+	width: 100%;
+}

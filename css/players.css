@@ -1,0 +1,56 @@
+.main-section {
+	background: #fff url(../img/background3.jpg) left top / cover fixed;
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+	min-height: 80vh;
+	overflow-x:hidden;
+	display: block;
+	text-align: center;
+}
+
+header,
+footer {
+	background-color: #A1130E;
+}
+
+.players-header {
+	display: grid;
+}
+
+.players-header h1{
+	font-size: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 25px;
+}
+
+.players-header .players-buttons-block form {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.players-header .players-buttons-block form .players-button {
+	background-color: #fff;
+	margin: 3px;
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	padding: 5px;
+	cursor: pointer;
+	border: 1px solid #000;
+}
+
+.players-header .players-buttons-block form .players-button:hover {
+	background-color: #D0D0D0;
+	transition: 0.5s background-color ease-out;
+}
+
+.players-header .players-buttons-block form .players-button:first-child {
+	border-radius: 50px 0px 0px 50px;
+}
+
+.players-header .players-buttons-block form .players-button:last-child {
+	border-radius: 0px 50px 50px 0px;
+}

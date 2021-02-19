@@ -1,0 +1,106 @@
+.main-section {
+	background: #fff url(../img/background3.jpg) left top / cover fixed;
+	display: block;
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+	min-height: 80vh;
+	overflow-x:hidden;
+	margin: auto;
+}
+
+header,
+footer {
+	background-color: #A1130E;
+}
+
+.group-header {
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	text-align: center;
+}
+
+.group-header h1{
+	font-size: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 25px;
+}
+.group-header .group-header-buttons-block {
+	text-align: center;
+	margin: auto;
+
+}
+
+.group-header .group-header-buttons-block form {
+	display: grid;
+	grid-template-columns: 250px 250px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.group-header .group-header-buttons-block form .group-header-button {
+	background-color: #fff;
+	margin: 3px;
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	padding: 5px;
+	cursor: pointer;
+	border: 1px solid #000;
+	border-radius: 40px;
+	text-align: center;
+}
+
+.group-header .group-header-buttons-block form .group-header-button:hover {
+	background-color: #D0D0D0;
+	transition: 0.5s background-color ease-out;
+}
+
+
+.group-section {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.group-section .match-block {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	background-color: #fff;
+	border-radius: 4px;
+	margin: 15px;
+}
+
+.group-section .match-date {
+	display: grid;
+	align-items: center;
+	margin: auto;
+	text-align: center;
+	height: 100%;
+	width: 100%;
+	background-color: #043E69;
+	color: #fff;
+	border-radius: 4px 4px 0px 0px;
+}
+
+.group-section .match-body {
+	display: grid;
+	grid-template-columns: 220px 50px 220px;
+	border-top: 1px solid black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.group-section .match-body .score-block {
+	text-align: center;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	height: 100%;
+}
+
+.group-section .match-body .country-block{
+	padding: 0px 10px 0px 10px;
+}
+.group-section .match-body .country-block:first-child {
+	text-align: right;
+}

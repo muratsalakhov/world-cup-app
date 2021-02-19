@@ -1,0 +1,98 @@
+.main-section {
+	background: #fff url(../img/background3.jpg) left top / cover fixed;
+	display: block;
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+	min-height: 80vh;
+	overflow-x:hidden;
+}
+
+.team-name-block {
+	display: grid;
+	grid-template-columns: 64px 1fr;
+	align-items: center;
+	justify-items: center;
+	margin-bottom: 25px;
+}
+
+
+.team-name-block h1 {
+	font-size: 30px;
+	color: #fff;
+	margin: auto;
+	padding: 10px;
+}
+
+
+header,
+footer {
+	background-color: #A1130E;
+}
+
+.team-info {
+	background-color: #043E69;	
+	border: 1px solid black;
+	width: 100%;
+	color: #fff;
+}
+
+.team-info-block {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+
+}
+
+.team-info-item {
+	padding: 10px;
+	text-align: center;
+}
+
+.team-info-item span{
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.team-info-item p{
+	font-size: 20px;
+}
+
+.team-players {
+	margin-top: 20px;
+	align-items: center;
+	margin: auto;
+	text-align: center;
+}
+
+.team-players-block {
+	display: grid;
+	grid-template-columns: repeat(14, 1fr);
+}
+
+.team-players-block .player-atributes-item {
+	background-color: #fff;
+	width: 100%;
+	text-align: center;
+	padding: 3px 6px 3px 6px;
+	margin-top: 3px;
+	border-radius: 3px;
+}
+
+.team-players-block .player-atributes-item p {
+	font-size: 16px;
+}
+
+.player-atributes {
+	height: 50px;
+	margin-bottom: 15px;
+	margin-top: 15px !important;
+	display: grid;
+	background-color: #D0D0D0 !important; 
+}
+
+.player-atributes p{
+	display: grid;
+	height: 100%;
+	margin: auto;
+	align-items: center;
+	justify-items: center;
+}
